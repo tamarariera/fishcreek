@@ -1,30 +1,98 @@
-body { background-color: #FFFFFF;
-       color: #003366;
-       font-family: Verdana, Arial, sans-serif;
+* { box sizing: border-box;}
+body
+background-color: #5280C5;
+background-imaginel: url(gadientblue.jpg)
+color: #003366;
+font-family: Verdana, Arial, sans-serif;
 }
-#wrapper { background-color: #F0F0F0;
-           margin-left: auto;
-           margin-right: auto;
-           width: 90%;
+#wrapper 
+background-color: #F0F0F0;
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+min-width: 700px;
 }
-header { background-color: #003366;
-         color: #AEC3E3;
-         font-family: Georgia, "Times New Roman", serif;
+header a { text-deco 
+background-color: #000066;
+background-imagine: url(bigfish.gif);
+background-position: center;
+background-repeat: no-repeat;
+color: #F0F0F0;
+font-family: Georgia, "Times New Roman", serif;
+padding: 1em;
+text-align: center;
 }
-h1 { line-height: 200%;
-     text-indent: 1em;
+header a { text-decoration: none; }
+header a:link       { color: #F0F0F0; }
+header a:visited  { color: #F0F0F0; }
+header a:Hover      { color: #AEC3E3; }
+h1 {
+font-size: 3em;
+padding: 0.2em;
+text-shadow: 3px 3px 3px #CCC; }
+h2 { 
+font-size: 1.2em;
+text-shadow: 1px 1px 1px #777;
 }
-h2 { font-size: 1.2em; }
-nav { font-weight: bold; }
-dt { color: #5280C5;
-     font-size: 1.1em;
-     font-family: Georgia, "Times New Roman", serif;
-     font-weight: bold;
+nav {
+float: left;
+flont-weight: bold;
+padding: .5em;
+width: 180px;
 }
-.category { color: #5380C5;
-            font-family: georgia, "Times New Roman", serif;
-            font-weight: bold;
+nav ul { list-style-type: none; }
+nav a { text-decoration: none; }
+nav a:link       { color: #000066; }
+nav a:visited  { color: #5280C5; }
+nav a:hover      { color: #3262A3; }
+main {
+background-color: #FFF;
+border: 1px solid #AEC3E3;
+display: block;
+margin-left: 180px;
+overflow: auto;
+padding-left: 2em;
+padding-right: 2em;
 }
-footer { font-size: .70em;
-         font-style: italic;
+dt {
+color: #5280C5;
+font-size: 1.1em;
+font-family: Georgia, "Times New Roman, serif;
+font-weight: bold;
+}
+section {
+background-color: #EAEAEA;
+float: left;
+margin-left: 1em;
+margin-right: 1em;
+min-height: 200px;
+padding: 0;
+widt: 30%;
+}
+section h3 {
+background-color: #AEc3E3;
+font-size: 110%;
+margin-bottom: 0;
+margin-top: 0;
+padding: .25em;
+}
+section p { padding: 0 .25em .25em .25em; }
+.category {
+color: #5538C5; 
+font-family: Georgia, "times New Roman", serif;
+font-weight: bold;
+}
+.address { clear: left; }
+.floatright {
+float: right;
+padding-left: 1em;
+padding-right: 1em;
+}
+footer {
+background-color: #AEC3E3;
+font-size: .70em;
+font-style: italic;
+margin-left: 180px;
+padding: 1em;
+text-align: center;
 }
