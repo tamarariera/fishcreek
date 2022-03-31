@@ -5,7 +5,7 @@ background-image: url(gradientblue.jpg);
 color: #003366;
 font-family: Verdana, Arial, sans-serif;
 }
-#wrapper 
+#wrapper {
 background-color: #F0F0F0;
 margin-left: auto;
 margin-right: auto;
@@ -36,7 +36,7 @@ text-shadow: 1px 1px 1px #777;
 }
 nav {
 float: left;
-flont-weight: bold;
+font-weight: bold;
 padding: .5em;
 width: 180px;
 }
@@ -67,7 +67,7 @@ margin-left: 1em;
 margin-right: 1em;
 min-height: 200px;
 padding: 0;
-widt: 30%;
+width: 30%;
 }
 section h3 {
 background-color: #AEc3E3;
