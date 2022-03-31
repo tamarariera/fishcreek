@@ -1,7 +1,7 @@
 * { box-sizing: border-box;}
 body {
 background-color: #5280C5;
-background-imaginel: url(gradientblue.jpg);
+background-image: url(gradientblue.jpg);
 color: #003366;
 font-family: Verdana, Arial, sans-serif;
 }
@@ -12,9 +12,9 @@ margin-right: auto;
 width: 90%;
 min-width: 700px;
 }
-header a { text-deco 
+header a { text-decoration: none; 
 background-color: #000066;
-background-imagine: url(bigfish.gif);
+background-image: url(bigfish.gif);
 background-position: center;
 background-repeat: no-repeat;
 color: #F0F0F0;
